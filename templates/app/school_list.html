@@ -6,6 +6,6 @@
 {% block body_block %}
 <h1>LIST OF SCHOOL</h1>
     {% for school in schools %}
-       <h1>{{school.sname}}</h1>
+      <a href="{{school.pk}}"><h1>{{school.sname}}</h1></a> 
     {% endfor %}
 {% endblock %}
